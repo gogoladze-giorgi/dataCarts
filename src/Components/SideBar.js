@@ -8,7 +8,7 @@ import { IoShapesOutline } from "react-icons/io5"
 const SideBar =()=>{
     return <div className={classes.SideBar}>
         <img src={logo} alt="clear" className={classes.logo}  />
-        <FcSearch className={classes.Search} />
+        <FcSearch className={classes.Search}/>
         <BiBulb className={classes.BiBulb}/>
         < IoShapesOutline className={classes.IoShapesOutline} />
     </div>

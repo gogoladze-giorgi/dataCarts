@@ -1,8 +1,9 @@
 import React from 'react';
 import {Line} from 'react-chartjs-2';
-
+import {ResponsiveContainer} from 'recharts'
 const BarChart =()=> {
-    return<Line
+    return <ResponsiveContainer width="100%" height={300} >
+    <Line
         data={{
             labels:['January','February','March','April','May','June','July','August', 'September','October','November','December' ],
             datasets: [{
@@ -32,12 +33,14 @@ const BarChart =()=> {
                 ],}],
         }}
 
-        // options={{
-        //     maintainAspectRatios:false
-        // }}
-        height={1200}
-        width={7000}
+        options={{
+            responsive:true,
+            maintainAspectRatios:false
+        }}
+        // height={1200}
+        // width={7000}
 
         />
+    </ResponsiveContainer>
 }
 export default BarChart;

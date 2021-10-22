@@ -1,20 +1,21 @@
 *{
-    /*background: #3e424e;*/
+    /*background-color: #c4c8ce;*/
+    font-family: Comic Sans MS, Comic Sans, cursive;
 
 }
 .container{
     display: flex;
-    position: absolute;
+    /*position: relative;*/
     flex-direction: column;
     gap: 0.2rem;
-    width: 90rem;
-    left: 90px;
-    top: 1rem;
-    box-sizing: border-box;
-   justify-content: center;
+    width: 90%;
+
+    /*width: 90rem;*/
+    /*left: 90px;*/
+    /*box-sizing: border-box;*/
+    /*justify-content: center;*/
 }
 .search{
-    font-family: Comic Sans MS, Comic Sans, cursive;
     padding: 1.4rem;
     font-style: normal;
     font-weight: normal;
@@ -46,5 +47,5 @@
     width: 50px;
 }
 .svg{
-background: hotpink;
+    background: hotpink;
 }

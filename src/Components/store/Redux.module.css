@@ -1,0 +1,33 @@
+.container{
+    display:flex;
+    justify-content:space-around;
+    list-style: none;
+    color: #585555;
+
+
+}
+.height{
+    background: #f16868;
+    border-radius: 4px;
+    height:1.4rem;
+    width:3.4rem;
+    text-align: center;
+}
+.low{
+    background: #7CC9A4;
+    border-radius: 3px;
+    height:1.4rem;
+    width:3rem;
+    text-align: center;
+
+
+}
+.medium{
+    background: #F5A623;
+    border-radius: 3px;
+    height:1.4rem;
+    width:4rem;
+    font-size:15px;
+    vertical-align:center;
+    text-align:center;
+}
