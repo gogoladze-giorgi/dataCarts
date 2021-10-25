@@ -42,9 +42,9 @@
 }
 .page_one:hover,
 .page_two:hover{
-    color: black;
-    height: 50px;
-    width: 50px;
+    color: #3e3b3b;
+
+
 }
 .svg{
     background: hotpink;
